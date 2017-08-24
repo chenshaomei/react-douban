@@ -1,0 +1,32 @@
+.banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    width: 10000px;
+    transition: all ease-out 500ms;
+    -webkit-transition: all ease-out 500ms;
+}
+.banner li{
+    float: left;
+}
+.banner img{
+    width: 100%;
+}
+.dots{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+}
+.dots span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.53);
+    margin-right: 3px;
+}
+.dots span.cur{
+    background: #fff;
+}

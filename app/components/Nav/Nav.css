@@ -1,0 +1,88 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 49px;
+}
+.nav::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    -webkit-transform-origin:0 0;
+    transform-origin:0 0;
+    -webkit-transform:scaleY(0.5);
+    transform:scaleY(0.5);
+}
+.nav-ul{
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center
+}
+.nav-ul li{
+    width: 0%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.nav-ul li a{
+    display: block;
+    text-align: center;
+}
+
+.nav-ul li a span{
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+.nav-ul li a i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+.nav-ul li:nth-child(1) a i{
+    background: url(../../images/icons/home.png) no-repeat top center;
+    background-size: 100%;
+}
+.nav-ul li:nth-child(2) a i{
+    background: url(../../images/icons/search.png) no-repeat top center;
+    background-size: 100%;
+}
+.nav-ul li:nth-child(3) a i{
+    background: url(../../images/icons/my.png) no-repeat top center;
+    background-size: 100%;
+}
+
+
+.nav-ul li:nth-child(1) a.active i{
+    background: url(../../images/icons/home-active.png) no-repeat top center;
+    background-size: 100%;
+}
+.nav-ul li:nth-child(2) a.active i{
+    background: url(../../images/icons/search-active.png) no-repeat top center;
+    background-size: 100%;
+}
+.nav-ul li:nth-child(3) a.active i{
+    background: url(../../images/icons/my-active.png) no-repeat top center;
+    background-size: 100%;
+}
+
+.nav-ul li a.active span{
+    color: #1cb326;
+}

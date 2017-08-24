@@ -1,0 +1,99 @@
+/*列表*/
+.film-ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 10px;
+}
+.film-ul li{
+    position: relative;
+    width: 33.333333%;
+    margin-bottom: 20px;
+}
+.film-ul li:nth-child(3n+1){
+    padding-right: 4px;
+}
+.film-ul li:nth-child(3n+2){
+    padding:0 2px;
+}
+.film-ul li:nth-child(3n+3){
+    padding-left: 4px;
+}
+.film-ul li .avator{
+    overflow: hidden;
+    border-radius: 2px;
+    position: relative;
+}
+.film-ul li .avator::before{
+    content: "";
+    margin-top: 142.85714%;;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+}
+.film-ul li .avator .img{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.film-ul li .title{
+    font-size: 12px;
+    color: #333;
+    padding-top: 5px;
+}
+
+/*flex*/
+.flex{
+    text-align: left;
+    overflow-y: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+/*水平居中*/
+.flex-center{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+/*换行*/
+.flex-wrap{
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-item{
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 6px;
+    min-width: .2rem;
+    width: 0;
+}
+.flex .flex-item:first-child {
+    margin-left: 0;
+}
+
+.flex-wrap-item{
+    width: 33.333333%;
+    padding-left: 6px;
+}
+.flex .flex-wrap-item:nth-child(3n+1) {
+    padding-left: 0;
+}

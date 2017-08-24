@@ -1,0 +1,10 @@
+.film-list{
+    background: #fff;
+}
+.film-list .list-title{
+    font-size: 16px;
+    padding: 5px 10px 10px;
+    text-align: center;
+    color: #000;
+    font-weight: lighter;
+}

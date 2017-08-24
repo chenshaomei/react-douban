@@ -1,0 +1,41 @@
+.login{
+    width: 100%;
+    margin-top: 10px;
+}
+.login-form{
+    padding: 10px;
+    /*padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(212, 212, 212, 0.3);*/
+}
+.login-form > div{
+    margin-bottom: 12px;
+}
+.login-form .username{
+
+}
+
+.login-form .password{
+
+}
+.login-form div .ipt{
+    height: 36px;
+    border-radius: 2px;
+    border-color: #eee;
+    outline: none;
+}
+.login-form .login-submit{
+    margin-top: 30px;
+}
+.login-form .login-submit button{
+    width: 100%;
+    line-height: 38px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    background: #1cb326;
+    outline: none;
+    height: auto;
+    border: 0;
+}

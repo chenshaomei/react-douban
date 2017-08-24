@@ -1,0 +1,65 @@
+.details .details-hd{
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.details .details-hd-bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.details .bd-inn{
+    position: absolute;
+    top: 50px;
+    margin: 0 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.details .film-imgs{
+    width: 80px;
+}
+.details .film-info{
+    -webkit-box-flex: 1;
+    -webkit-flex:1;
+    flex:1;
+    padding-left: 15px;
+    color: #fff;
+    font-weight: lighter;
+}
+.details .film-info .name{
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: lighter;
+}
+.details .film-info .average{
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 8px;
+}
+.details .film-info .average span{
+    font-size: 12px;
+}
+.details .film-info .count{
+    font-size: 12px;
+    color: #999;
+}
+
+.details .details-bd{
+    padding-top: 30px;
+    padding: 30px 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.info-part1{
+
+}
+.info-part2{
+    padding-top: 30px;
+}
+.info-part2 .til{
+    color: #999;
+    padding-bottom: 10px;
+}

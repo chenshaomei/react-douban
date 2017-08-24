@@ -1,0 +1,36 @@
+.content{
+    padding-top: 54px;
+}
+.page-body{
+    padding-bottom: 50px;
+}
+.sec{
+    background-color: #fff;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+/*demo*/
+.ul-list{
+    margin: 0 10px;
+}
+.ul-list .list-item div{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: #fff;
+}
+.ul-list .list-item div span{
+    display: block;
+    text-align: center;
+}
+.ul-list .list-item div .zn-name{
+    font-size: 13px;
+    color: #999;
+}
+.en-name{
+    font-size: 12px;
+    color: #ccc;
+}
