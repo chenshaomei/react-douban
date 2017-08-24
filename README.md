@@ -2,6 +2,7 @@
 
 > A React.js project
 > 一个基于React.js仿豆瓣电影项目，使用react-router、webpack、redux等技术， 数据来源 https://api.douban.com/
+> 包含左右滑动，上拉加载更多等功能
 
 ## 目录
 #### &sect; [技术栈](#features)
