@@ -62,7 +62,7 @@ npm test
 ├── .eslintignore    # （配置）ESLint 检查中需忽略的文件（夹）
 ├── .eslintrc        # ESLint 配置
 ├── .gitignore       # （配置）需被 Git 忽略的文件（夹）
-├── package.json     # （这个就不用多解释了吧）
+├── package.json     #
 ├── webpack.config.js  # （Webpack 配置
 ```
 
