@@ -14,8 +14,9 @@ module.exports = {
     contentBase: path.join(__dirname, "build"),  //以build为根目录提供文件
     historyApiFallback: true,
     hot: true,
-    port:8092,
+    port: process.env.PORT || 8082,
     inline: true,
+    disableHostCheck: true,
     // api 代理转发
     proxy:{
         "/api": {
