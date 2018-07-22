@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port $PORT --host 0.0.0.0",
+    "postinstall": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browser-sync start --server --files **/*.css, **/*.html, **/*.js",
     "dev": "webpack-dev-server"
